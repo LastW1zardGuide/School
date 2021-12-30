@@ -1,0 +1,51 @@
+body{
+	background-color: red;
+	padding: 0px;
+	margin: 0px;
+	font-family: monospace;
+}	
+
+header{
+	width: 100%;
+	background-color: white;
+	height: 50px;
+	border: 10px;
+	border-style: outset;
+	border-color: blue;
+}
+
+.header-text{
+	position: inherit;
+	float: right;
+	width: 35%;
+	font-size: 25px;
+}
+
+.main{
+	background-color: white;
+}
+li{
+	list-style-type: none;
+	display: inline;
+	margin: 0px ;
+	padding: 0px;
+
+}
+ul{
+	position: ;
+	float: right;
+}
+footer{
+	width: 100%;
+	background-color: white;
+	height: 50px;
+	border: 10px;
+	border-style: inset;
+	border-color: blue;
+}
+.footer-text{
+	position: inherit;
+	float: right;
+	width: 50%;
+	font-size: 25px;
+}
