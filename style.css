@@ -21,19 +21,23 @@ header{
 	font-size: 25px;
 }
 
+.wizard{
+	position: inherit;
+	width: 50%;
+}
+
 .main{
 	background-color: white;
 }
 li{
 	list-style-type: none;
 	display: inline;
-	margin: 0px ;
-	padding: 0px;
-
+	width: 30%;
+	font-size: 20px;
 }
+
 ul{
-	position: ;
-	float: right;
+
 }
 footer{
 	width: 100%;
