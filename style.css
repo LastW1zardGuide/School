@@ -6,6 +6,7 @@ body{
 	background: url(coffeebackground.png);
 }
 
+
 .tel{
 	position: relative;
 	left: 30px;
@@ -125,4 +126,54 @@ a:hover{
 	width: 30px;
 	top: 12px;
 	left: 63%;
+}
+
+footer{
+	position: relative;
+	bottom: -15px;
+	background-color: red;
+	width: 100%;
+	height: 50px;
+}
+
+.rl-text-bot{
+	position: relative;
+	font-size: 20px;
+	float: right;
+	right: 30%;
+	bottom: 5px;
+}
+
+.table-div{
+	position: relative;
+	padding: 0px;
+	margin: 0px;
+}
+
+.table-products img{
+	position: relative;
+	margin: 30px;
+	height: 300px;
+	width: 300px;
+	border: solid 4px black;
+}
+
+.product-all{
+	position: relative;
+	margin: 30px;
+	padding: 0px;
+	bottom: 55px;
+}
+
+.button-product{
+	position: relative;
+	height: 30px;
+	width: 35px;
+	bottom: 115px;
+	left: 210px;
+	background: url(Cart-64.png);
+	background-repeat: no-repeat;
+	background-size: 35px;
+	background-position: center;
+	background-color: green;
 }
