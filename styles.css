@@ -1,0 +1,39 @@
+body{
+  background: url(coffeebackground.png);
+}
+
+.carousel-inner img{
+  position: relative;
+  height: 600px;
+  width: 100%;
+
+}
+
+.carousel-inner{
+  height: 600px;
+}
+.col{
+    height: auto;
+    width: 360px;
+    margin-left: 10px;
+}
+footer{
+  position: relative;
+  background-color: gray;
+  height: 300px;
+  width: 100%;
+  bottom: 100%;
+}
+.text-land{
+  background: linear-gradient(3deg, #e6d16c, #16014c);
+  height: 600px;
+}
+.text-land-inner{
+  position: relative;
+  color: rgba(255, 255, 255, 0.75);
+  width: 95%;
+  height: auto;
+  top: 120px;
+  left: 40px;
+
+}
