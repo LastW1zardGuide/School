@@ -1,0 +1,60 @@
+form{
+    position: absolute;
+    left: 35%;
+    top:25%;
+    bottom: 25%;
+    width: 800px;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../coffeebackground.png);
+}
+
+* {
+    box-sizing:border-box;
+    text-decoration: none;
+}
+.container {
+    padding: 16px;
+    background-color: rgba(127, 127, 127, 1.0);
+    width: 50%;
+    padding: 15px;
+
+
+}
+input[type=login],input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: block;
+    border: none;
+    background: rgba(241, 241, 241, 0.8 );
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+.registerbtn {
+    background-color: #4CAF50;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: 25px;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+    box-shadow: 10px 5px #2e612f;
+    text-decoration: none;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+.registerbtn a {
+    color: white;
+}
+ color and center the text of the "sign in" section 
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}

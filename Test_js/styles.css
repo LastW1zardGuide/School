@@ -1,0 +1,119 @@
+body{
+  background: url(coffeebackground.png);
+  background: radial-gradient(circle, rgba(7,13,14,1) 0%, rgba(106,73,19,0.8713235294117647) 50%);
+}
+.navbar{
+  position: fixed;
+  z-index: 100;
+  width: 100%;
+}
+.carousel-inner img{
+  position: relative;
+  height: 600px;
+  width: 100%;
+  left: 25%;
+}
+
+.carousel-inner{
+  height: 600px;
+}
+.carousel-caption p{
+  color: red;
+}
+.col{
+    height: auto;
+    width: 360px;
+    margin-left: 10px;
+    padding: 30px;
+}
+.card-title{
+  position: relative;
+  text-align: center;
+}
+.card-text{
+  position: relative;
+  text-align: center;
+}
+footer{
+  position: relative;
+  background-color: gray;
+  height: 200px;
+  width: 100%;
+  bottom: 100%;
+}
+.about_coffee{
+  position: relative;
+  background: url(Img/istockphoto-508347326-612x612.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:left -250px;
+  height: auto;
+  width: 100%;
+  color: white;
+}
+
+.about_coffee h2{
+  position: relative;
+  top: 38px;
+  left: 100px;
+}
+
+.about_coffee p{
+  position: relative;
+  padding: 30px;
+  width: 550px;
+  color: white;
+}
+.about_company{
+  position: relative;
+  background: url(Img/326443_2200-1200x628.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: right ;
+  color: white;
+  height: 800px;
+  width: 100%;
+}
+
+.about_company h2{
+  position: relative;
+  top: 20px;
+  left: 70%;
+}
+
+.about_company p{
+  position: relative;
+  padding: 30px;
+  width: 500px;
+  left: 60%;
+  color: white;
+}
+#carouselExampleCaptions h5,p{
+  color: black;
+}
+.bullets{
+  color: rgba(255, 255, 255, 0.75);
+  position: relative;
+  width: 100%;
+  height: 230px;
+  font-size: 30px;
+}
+.bullets li{
+  list-style-type: square;
+  word-spacing: 30px;
+  border-bottom: 3px solid brown;
+  width:1000px;
+}
+.bullets ul{
+  position: relative;
+  left: 5%;
+  top: 30px;
+}
+.bullets h2{
+  position: relative;
+  width: 250px;
+  text-align: center;
+  left: 40%;
+  border: 5px solid brown;
+  background-color: brown;
+}
