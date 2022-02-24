@@ -41,6 +41,11 @@ footer{
   width: 100%;
   bottom: 100%;
 }
+footer audio{
+  position: absolute;
+  bottom: 75px;
+  left: 335px;
+}
 .about_coffee{
   position: relative;
   background: url(Img/istockphoto-508347326-612x612.jpg);

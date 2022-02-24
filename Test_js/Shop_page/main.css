@@ -7,7 +7,7 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	color: #000;
-	background-color: rgba(127, 127, 127, 0.75);
+	background-color: #fff;
 	min-width: 320px;
 }
 
@@ -79,7 +79,6 @@ a:hover {
 .product-card {
 	box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.06);
 	transition: all .3s;
-	background-color: rgba(190, 190, 190, 1.0);
 }
 
 .product-card:hover {
@@ -114,7 +113,7 @@ a:hover {
 .product-details p {
 	font-size: 15px;
 	margin-bottom: 20px;
-	color: black;
+	color: #999;
 	height: 44px;
 	overflow: hidden;
 }
@@ -132,7 +131,7 @@ a:hover {
 }
 
 .product-price small {
-	color: black;
+	color: #ccc;
 	font-weight: 400;
 	text-decoration: line-through;
 	margin-right: 5px;
