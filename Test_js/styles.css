@@ -18,7 +18,9 @@ body{
   height: 600px;
 }
 .carousel-caption p{
-  color: red;
+  color: black;
+  font-size: 20px;
+  font-weight: bold;
 }
 .col{
     height: auto;
@@ -59,7 +61,7 @@ footer audio{
 
 .about_coffee h2{
   position: relative;
-  top: 38px;
+  top: 60px;
   left: 100px;
 }
 
@@ -68,6 +70,10 @@ footer audio{
   padding: 30px;
   width: 550px;
   color: white;
+  top: 25px;
+}
+.about_coffee img{
+  background: rgba(255, 255, 255, 0.5);
 }
 .about_company{
   position: relative;
