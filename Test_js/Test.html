@@ -8,6 +8,14 @@
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $("#flip").click(function(){
+        $("#panel").slideDown("slow");
+    });
+  });
+  </script>
 	<title>Coffee Shop</title>
 </head>
 <body>
@@ -30,15 +38,10 @@
           <a class="nav-link" href="#abt_cmp">About us</a>
         </li>
 		    <li class="nav-item">
-          <a class="nav-link" href="#foot">Footer</a>
+          <a class="nav-link" href="#foot">Music and copyrights</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="Registration_form/registration_form.html">Registration</a>
-        </li><li class="nav-item">
-          <a class="nav-link" href="https://gomockingbird.com/projects/ut8s0qp/4gXVnC">Plan of this site</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="Updated/main.html">Secret</a>
+          <a class="nav-link" href="Reg2/registration.html">Registration</a>
         </li>
       </ul>
       <form class="d-flex" action="https://www.google.ru/?text=search">
@@ -97,10 +100,10 @@
   </button>
 </div>
 <!-- Сетка товаров-->
-<div class="row">
-  <div class="col">
-    <div class="card bg-secondary">
-      <img src="Img/Kaito.jpg" class="card-img-top bg-dark" alt="...">
+<div class="row ">
+  <div class="col ">
+    <div class="card bg-secondary shadow-pop-tr">
+      <img src="Img/Kaito.jpg" class="card-img-top bg-dark " alt="...">
       <div class="card-body">
         <h5 class="card-title">Arken Karim</h5>
         <p class="card-text">Project Manager</p>
@@ -108,7 +111,7 @@
     </div>
   </div>
   <div class="col center-wizard">
-    <div class="card bg-secondary">
+    <div class="card bg-secondary shadow-pop-tr">
       <img src="Img/dias.jpg" class="card-img-top bg-dark" alt="...">
       <div class="card-body">
         <h5 class="card-title">Dias Maulenberdiev</h5>
@@ -117,7 +120,7 @@
     </div>
   </div>
   <div class="col">
-    <div class="card bg-secondary">
+    <div class="card bg-secondary shadow-pop-tr">
       <img src="Img/Ildar.jpg" class="card-img-top bg-dark" alt="...">
       <div class="card-body">
         <h5 class="card-title">Rinatov Ildar</h5>
@@ -129,8 +132,8 @@
 </div>
 <!-- Why We -->
 <div class="bullets">
-  <h2>Почему мы?</h2>
-  <ul>
+  <h2 class="heartbeat" id="flip">Почему мы?</h2>
+  <ul class="text-focus-in" id="panel">
     <li>Наши профессионалы делают самый вкусный кофe</li>
     <li>У нас только отборные зерна из Китая и Казахстана</li>
     <li>Мы всегда располагаемся рядом с вами</li>

@@ -7,8 +7,10 @@ body {
 	font-size: 16px;
 	font-weight: 400;
 	color: #000;
-	background-color: #fff;
+	background-color: white;
 	min-width: 320px;
+	padding: 0px;
+	background: radial-gradient(circle, rgba(7,13,14,1) 50%, rgba(204,149,69,1) 100%);
 }
 
 img {

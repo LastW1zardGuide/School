@@ -38,7 +38,7 @@ body{
 }
 footer{
   position: relative;
-  background-color: gray;
+  background-color: #361601;
   height: 200px;
   width: 100%;
   bottom: 100%;
@@ -48,21 +48,37 @@ footer audio{
   bottom: 75px;
   left: 335px;
 }
+footer p{
+  color: rgba(255, 255, 255, 0.75);
+}
 .about_coffee{
   position: relative;
   background: url(Img/istockphoto-508347326-612x612.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position:left -250px;
-  height: auto;
+  height: 700px;
   width: 100%;
   color: white;
+}
+.about_coffee:after{
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  top: 1px;
+  height: 700px;
+  width: 100%;
+  z-index: 2;
 }
 
 .about_coffee h2{
   position: relative;
   top: 60px;
-  left: 100px;
+  left: 160px;
+  background-color: #cc9545;
+  width: 200px; 
+  border-radius: 10%; 
+  z-index: 10;
 }
 
 .about_coffee p{
@@ -70,7 +86,10 @@ footer audio{
   padding: 30px;
   width: 550px;
   color: white;
-  top: 25px;
+  top: 48px;
+  border-radius: 10%;
+  background-color: #cc9545;
+  z-index: 10;
 }
 .about_coffee img{
   background: rgba(255, 255, 255, 0.5);
@@ -78,18 +97,33 @@ footer audio{
 .about_company{
   position: relative;
   background: url(Img/326443_2200-1200x628.jpg);
+  background-color: rgba(0, 0, 0, 1.0);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: right ;
-  color: white;
+  color: rgba(255, 255, 255, 0.75);
   height: 800px;
   width: 100%;
+}
+
+.about_company:after{
+  content: '';
+  position: absolute;
+  background: rgba(0, 0, 0, 0.4);
+  top: 1px;
+  height: 800px;
+  width: 100%;
+  z-index: 2;
 }
 
 .about_company h2{
   position: relative;
   top: 20px;
   left: 70%;
+  background-color: #cc9545;
+  width: 240px;
+  z-index: 10;
+  border-radius: 10%;
 }
 
 .about_company p{
@@ -98,6 +132,9 @@ footer audio{
   width: 500px;
   left: 60%;
   color: white;
+  background-color: #cc9545;
+  border-radius: 5%;
+  z-index: 9;
 }
 #carouselExampleCaptions h5,p{
   color: black;
@@ -112,7 +149,7 @@ footer audio{
 .bullets li{
   list-style-type: square;
   word-spacing: 30px;
-  border-bottom: 3px solid brown;
+  border-bottom: 3px solid #cc9545;
   width:1000px;
 }
 .bullets ul{
@@ -125,6 +162,78 @@ footer audio{
   width: 250px;
   text-align: center;
   left: 40%;
-  border: 5px solid brown;
-  background-color: brown;
+  border: 5px solid #cc9545;
+  background-color: #cc9545;
+}
+
+.col .bg-dark{
+  color: #cc9545;
+}
+
+.shadow-pop-tr {
+  animation: shadow-pop-tr 0.3s cubic-bezier(0.470, 0.000, 0.745, 0.715) both;
+}
+
+@keyframes shadow-pop-tr {
+  0% {
+    box-shadow: 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e, 0 0 #3e3e3e;
+    transform: translateX(0) translateY(0);
+  }
+  100% {
+    box-shadow: 1px -1px #3e3e3e, 2px -2px #3e3e3e, 3px -3px #3e3e3e, 4px -4px #3e3e3e, 5px -5px #3e3e3e, 6px -6px #3e3e3e, 7px -7px #3e3e3e, 8px -8px #3e3e3e;
+    transform: translateX(-8px) translateY(8px);
+  }
+}
+
+
+.heartbeat {
+  animation: heartbeat 1.5s ease-in-out infinite both;
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
+  }
+}
+
+.text-focus-in {
+  animation: text-focus-in 1s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+}
+
+@keyframes text-focus-in {
+  0% {
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    filter: blur(0px);
+    opacity: 1;
+  }
+}
+
+#panel, #flip {
+    text-align: center;
+    cursor: pointer;
+}
+
+#panel {
+    display: none;
 }
